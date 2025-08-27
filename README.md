@@ -1,45 +1,24 @@
-## Tailwind
+# 📺 YouTube Clone
 
-- - Kurulum:
+**YouTube Clone** is a responsive video streaming application where users can watch and explore videos across different devices.  
+The app features a Home page, as well as sections for Trending, Music, and Movies, allowing content to be categorized.
 
-- https://tailwindcss.com/
+- Users can search for videos using the search bar, and related results are displayed instantly.
+- Hovering over a video shows a preview.
+- Clicking a video opens the video player page, where video details and comments are displayed below.
+- Fully **responsive design**, optimized for desktop, tablet, and mobile devices.
 
-tailwind.config.js, postcss.config.js eklemek için komutlara gir:
+## 🛠️ Technologies & Libraries Used
 
-- npm install -D tailwindcss postcss autoprefixer
-  npx tailwindcss init -p
+- axios
+- millify
+- moment
+- react
+- react-dom
+- react-icons
+- react-player
+- react-router-dom
 
-tailwind.config.js 'e ekleme yap:
-
-- content: [
-  "./index.html",
-  "./src/**/*.{js,ts,jsx,tsx}",
-  ],
-
-./src/index.css 'e ekle:
-
-- @tailwind base;
-  @tailwind components;
-  @tailwind utilities;
-
-  ## Kütüphaneler
-
-  - tailwind (stillendirme, kurulumu sitesinde)
-  - axios
-  - react-player
-  - react-icons
-  - millify (sayı formatlama)
-  - moment (zaman formatlama)
-  - react-router-dom
-
-## Enviroment Variables (Ortam Değişkenleri)
-
-- Çalışma ortamı için gerekli ama projeyi githuba gönderdiğimiz zaman herkes tarafından erişilebilir olmasını istemediğimiz değişkenleri ortam değişkenleri olarak tanımlarız.
-
-- Örn:API_KEY admin giriş bilgileri, yayılmasını istemediğimiz herhangi bir değişken.
-
-# Youtube-Clone
-
-# Ekran Kaydı
+## 📸 Screenshot
 
 ![](youtube.gif)
